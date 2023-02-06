@@ -1,0 +1,12 @@
+.search {
+    font-size: 20px;
+    text-align: center;
+    margin: 70px auto 40px ;
+    align-items: center;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+}
+.inputbloq {
+    text-align: center;
+}

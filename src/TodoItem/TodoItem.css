@@ -1,0 +1,32 @@
+.list{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    background-color: rgb(224, 251, 252);
+    margin: 20px;
+    width: 400px;
+    height: 40px;
+    margin: 30px auto;
+    border-radius: 30px;
+}
+
+.list p {
+    margin: auto;
+    font-size: 20px;
+}
+
+.tick {
+    color: green;
+    margin: auto 5px;
+    cursor: pointer;
+}
+
+.cruz {
+    color: red;
+    margin: auto 5px;
+    cursor: pointer;
+}
+
+.tachado { 
+    text-decoration:line-through
+}

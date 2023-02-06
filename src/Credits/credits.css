@@ -1,0 +1,18 @@
+
+.credit {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.credit a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.credit a:hover{
+    color: white;
+}
