@@ -25,7 +25,12 @@ function AppUI() {
     return (
         <React.Fragment>
             <TodoCounter />
+
             <TodoSearch />
+
+            <CreateTodoButtom
+                setOpenModal={setOpenModal}
+            />
 
             <TodoList >
                 {error && <p>Desespérate, hubo un error...</p>}
@@ -50,10 +55,6 @@ function AppUI() {
                 </Modal>
             )}
 
-            <CreateTodoButtom
-                setOpenModal={setOpenModal}
-            />
-            
         </React.Fragment>
     );
 }

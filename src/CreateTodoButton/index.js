@@ -8,10 +8,12 @@ function CreateTodoButtom(props){
 
 
     return(
+        <div>
         <button 
         className="add"
         onClick={onClickButton}
         >+</button>
+        </div>
     );
 }
 
