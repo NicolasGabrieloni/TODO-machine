@@ -2,5 +2,11 @@
     text-align: center;
     font-size: 40px;
     color: rgb(41, 50, 65);
-    margin-top: 170px;
+    margin-top: 100px;
+}
+
+@media (max-width: 425px ) {
+    .tittle{
+        font-size: 25px;
+    }
 }

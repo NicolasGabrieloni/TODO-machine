@@ -19,3 +19,9 @@
     rotate: 180deg;
     z-index: 1;
 }
+
+@media (max-width: 425px ) {
+     .add {
+        margin-top: 90px;
+     }
+}  

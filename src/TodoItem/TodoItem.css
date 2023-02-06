@@ -30,3 +30,9 @@
 .tachado { 
     text-decoration:line-through
 }
+
+@media (max-width: 425px ) {
+  .list {
+    width: 300px;
+  }
+}
